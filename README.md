@@ -24,7 +24,7 @@ For the last few years, most of my work has been developed inside private organi
 
 My work often sits between **frontend engineering, product UX, networking flows, native integrations, dashboards and API-driven interfaces**.
 
-> Most of my production work is private, so this profile focuses on what I build rather than only public repositories.
+> Most of my production work is private, so this profile focuses on what I build rather than only public repositories, to see my work check my portfolio at https://ericocorreia.com.
 
 ---
 
