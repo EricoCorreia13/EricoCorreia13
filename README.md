@@ -35,38 +35,40 @@ My work often sits between **frontend engineering, product UX, networking flows,
 <td width="50%" valign="top">
 
 ### 🛡️ QSWAN  
-**Post-quantum private network management**
+**Post-quantum network and endpoint security management**
 
-Management software for creating and managing gateways, network rules, users, profiles and certificate distribution flows.
+The control tower for post-quantum private networks: gateways, rules, users and profiles, plus host endpoint security, monitoring and the WANDA AI assistant across every connected client.
 
 **Worked on:**
 
-- React frontend
-- Gateway and user management UI
-- Connection/routing rule interfaces
-- Certificate/profile distribution flows
-- Dashboards, charts and tables
-- Responsive desktop/mobile layouts
+- React frontend for gateways, users, profiles and routing rules
+- Certificate and profile distribution flows
+- Host endpoint security (EDR): agent enrolment, company protection policies and security alerts
+- Monitoring dashboards, charts and tables
+- WANDA, the AI security assistant, and its policy and usage panels
+- Real-time WebSocket communication between the tower and its clients
 - Python backend integration
+- Responsive desktop and mobile layouts
 
 <br/>
 </td>
 <td width="50%" valign="top">
 
 ### 🖥️ QNova Client  
-**Desktop client for private networks**
+**Desktop security client for Windows, Linux and macOS**
 
-Electron-based client with React frontend, Python/C backend integration, IPC and WebSocket communication.
+A post-quantum VPN client that grew into a security toolkit: Electron + React on Windows and Linux with Python/C services, and a native Swift/SwiftUI app on macOS.
 
 **Worked on:**
 
-- Profile and connection management
-- IPC/WebSocket communication flows
-- P2P quantum-safe file transfer UI
-- Gateway drive access interfaces
-- macOS frontend adaptation
-- Custom installer experimentation
-- Desktop UX and state handling
+- Native macOS app in Swift/SwiftUI, with network and Endpoint Security system extensions
+- Client 2.0 redesign across all three platforms, with light and dark mode
+- 9 languages, including right-to-left Arabic
+- Security tools: password vault, link inspector (on-device ML), file encryption, TLS and network diagnostics
+- Real-time protection that blocks known malware before it runs on macOS
+- Chrome extension for password autofill, with native messaging on all three platforms
+- P2P quantum-safe file transfer and company drive access
+- Installers, auto-updates and signed releases
 
 <br/>
 
@@ -76,20 +78,20 @@ Electron-based client with React frontend, Python/C backend integration, IPC and
 <tr>
 <td width="50%" valign="top">
 
-### 📱 QNova Client Android  
-**Native Android app**
+### 📱 QNova Client Mobile  
+**Native iOS & Android apps**
 
-Independently built the Android version of QNova Client, focused on connection flows, profile management and MFA with QR Code support.
+Built the native iOS and Android versions of QNova Client: secure access to QS-WAN over a post-quantum VPN, plus a security toolkit that runs entirely on the device.
 
 **Worked on:**
 
-- Native Android development
-- VPN/client connection flows
-- Profile management
-- MFA with QR Code support
-- Mobile-first UX
-- Store-ready release
-  
+- Native iOS (Swift, SwiftUI) and Android (Kotlin, Jetpack Compose)
+- VPN/client connection flows with post-quantum encryption
+- Profile management and MFA with QR Code support
+- On-device security tools: scam link and text detection with an on-device ML model, number checks, password tools, file encryption
+- Direct device-to-device file transfer
+- 9 languages, phone and tablet layouts
+- Store-ready releases on the App Store and Google Play
 
 <br/>
 
@@ -98,6 +100,7 @@ Independently built the Android version of QNova Client, focused on connection f
 </a>
 
 </td>
+
 <td width="50%" valign="top">
 
 ### 🌐 Web Platforms & Backoffice  
